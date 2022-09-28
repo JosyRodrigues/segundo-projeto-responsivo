@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg,#354970,#c9eedd,#dceee8);
+    
+}
+
+header{
+        margin: 47px 42px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #dceee8;
+    margin-right: 10px;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration:underline;
+    color: #4CB538;
+}
+button{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 10px;
+    width: 130px;
+    height:60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid #354970;
+}
+img {
+    display: inline-block;
+    margin: 163px 0 0 121px;
+}
+
+div {
+    display:inline-block;
+    margin-left: 51px;
+    width: 492.3px;
+     
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 79px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    
+   
+}
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #2a2b2e;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.learn {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+a:hover {
+    text-decoration:underline 10px #6FBF44;
+    
+}
+
+@media screen and (max-width: 900px){
+
+    a {
+        display: none;
+    }
+
+    body{
+        background: #c9eedd;
+        width: 100vw;
+        height: 100vh;
+    }
+    button{
+      margin: 0 15px 0 270px;
+      width:91px;
+      height:31px;
+      font-size: 12px;
+      line-height: 18px; 
+      display:block; 
+      border-radius: 6px;
+      
+   }
+    main {
+        display: flex;
+        
+    }    
+        
+    header:not(5){
+        display: none;
+    }
+    div {
+        margin: 50px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin: 29px 43px 26px;
+    }
+    .learn {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        display: block;
+        text-align: center;
+        
+        
+     }
+     img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        position: absolute;
+        margin: 430px 55px;
+     }
+
+
+}
+
+    
